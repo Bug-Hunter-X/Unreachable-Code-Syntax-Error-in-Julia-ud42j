@@ -1,0 +1,1 @@
+This repository demonstrates a subtle syntax error in Julia that can occur even when the problematic code is unreachable.  The error arises from a missing semicolon at the end of a function definition, even if a `return` statement is present before it. This can be particularly confusing for developers, as standard practices often omit semicolons in simpler cases.
